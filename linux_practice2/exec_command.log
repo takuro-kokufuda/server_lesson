@@ -1,0 +1,118 @@
+    1  rm -r /root/server_lesson
+    2  cd /root
+    3  mkdir server_lesson && cd server_lesson
+    4  yum update -y && yum -y install git
+    5  git version
+    6  git init
+    7  touch first.txt
+    8  pwd
+    9  cd /server_lesson
+   10  cd server_lesson
+   11  cd server_lesson
+   12  mkdir /root/server_lesson/linux_practice1
+   13  cd /linux_practice1
+   14  cd linux_practice1
+   15  mkdir /root/server_lesson/linux_practice1/public
+   16  cd public
+   17  touch public/index.php
+   18  pwd
+   19  mkdir -p /root/server_lesson/linux_practice1/public
+   20  cd /root/server_lesson/linux_practice1/public
+   21  touch public/index.php
+   22  ls -l /root/server_lesson/linux_practice1/public
+   23  ls -ld /root/server_lesson/linux_practice1/public
+   24  touch /root/server_lesson/linux_practice1/public/index.php
+   25  cp server_lesson/linux_practice1/public/index.php server_lesson/linux_practice1/public/index_bk.php
+   26  pwd
+   27  ls public
+   28  ls server_lesson/linux_practice1/public/index.php
+   29  ls -l server_lesson/linux_practice1/public/
+   30  pwd
+   31  ls
+   32  cp index.php index_bk.php
+   33  ls
+   34  cd server_lesson
+   35  cd server_lesson
+   36  cp -r public tmp
+   37  cd server_lesson
+   38  pwd
+   39  cp -r server_lesson/linux_practice1/public server_lesson/linux_practice1/tmp
+   40  cd server_lesson
+   41  cd ~
+   42  pwd
+   43  cd server_lesson
+   44  cp -r server_lesson/linux_practice1/public server_lesson/linux_practice1/tmp
+   45  cp -r public tmp
+   46  pwd
+   47  cd public
+   48  cd -
+   49  cd -
+   50  find server_lesson -type d -name "public"
+   51  ls
+   52  ls linux_practice1/public
+   53  cd linux_practice1
+   54  cp -r public tmp
+   55  ls
+   56  cd sever_lesson
+   57  cd tmp
+   58  rm tmp/index_bk.php
+   59  ls
+   60  cd -
+   61  rm tmp/index_bk.php
+   62  cd tmp
+   63  ls
+   64  cd ~
+   65  cd server_lesson
+   66  ls
+   67  touch server_lesson/README.md
+   68  touch README.md
+   69  ls
+   70  vi README.md
+   71  pwd
+   72  mkdir  linux_practice2
+   73  pwd
+   74  ls
+   75  cd  linux_practice2
+   76  mkdir documents
+   77  ls
+   78  cd documents
+   79  touch gizumo{01..50}.md
+   80  ls
+   81  cd -
+   82  mkdir trash
+   83  ls
+   84  mv server_lesson/linux_practice2/documents/gizumo{20..40}.md server_lesson/linux_practice2/trash/
+   85  ls
+   86  ls trash
+   87  ls document
+   88  ls documents
+   89  mv server_lesson/linux_practice2/documents/gizumo{20..40}.md server_lesson/linux_practice2/trash/
+   90  pwd
+   91  ls
+   92  mv server_lesson/linux_practice2/documents/gizumo{20..40}.md server_lesson/linux_practice2/trash/
+   93  mv server_lesson/linux_practice2/documents/gizumo{20..40}.md server_lesson/linux_practice2/trash
+   94  pwd
+   95  mv documents/gizumo{20..40}.md trash/
+   96  ls
+   97  ls trash
+   98  cd -
+   99  cd -
+  100  mkdir .gitignore
+  101  ls
+  102  $ vi .gitignore
+  103  cd .gitignore
+  104  vi .gitignore
+  105  history 300
+  106  exec_command.log
+  107  history 300 > exec_command.log
+  108  ls -l linux_practice2/exec_command.log
+  109  cd -
+  110  ls -l linux_practice2/exec_command.log
+  111  ls
+  112  .gitignore
+  113  cd .gitignore
+  114  ls
+  115  rm exec_command.log
+  116  ls
+  117  cd -
+  118  history 300 > exec_command.log
